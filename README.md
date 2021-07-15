@@ -57,7 +57,7 @@ console.log(await gluer.getContent());
 // > ArrayBuffer { [Uint8Contents]: <00 ff 00>, byteLength: 3 }
 ```
 
-### Blob
+### Blob (browsers only)
 
 ```javascript
 // Tx
@@ -85,4 +85,4 @@ The implementation of this library is based on [this specification](https://gith
 
 ## Caveats
 
-The `Blob` support was not tested as it lacks of support in Node.JS. If you find any error please report.
+The `Blob` support was not tested intensively as it lacks of support in Node.JS. If you find any error please report.
